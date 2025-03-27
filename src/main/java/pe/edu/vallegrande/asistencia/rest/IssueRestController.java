@@ -28,7 +28,7 @@ public class IssueRestController {
     }
 
     @GetMapping("/all")
-    public Flux<Issue> GetIssue() {
+    public Flux<Issue> getIssue() {
         return issueService.findAllIssue();
     }
 
