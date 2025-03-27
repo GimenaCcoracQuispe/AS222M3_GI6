@@ -5,5 +5,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 class AsistenciaApplicationTests {
  	@Test
  	void contextLoads() {
+   // Implementar prueba para verificar que el contexto de Spring carga correctamente.
+   assertThat(applicationContext).isNotNull();
  	}
 }
